@@ -50,9 +50,7 @@ class ViewController: UIViewController {
             sendersName.text = enterName.text
             sendersMessage.text = enterMessage.text
         }
-        
-       
-        
+            
         // REMOVE keyboard on button press (postButton)
         enterName.resignFirstResponder()
         enterMessage.resignFirstResponder()

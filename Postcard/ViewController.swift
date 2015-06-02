@@ -37,9 +37,14 @@ class ViewController: UIViewController {
             sendersName.text = "ENTER NAME & MESSAGE"
             sendersName.hidden = false
         } else {
+            
+            sendersName.backgroundColor = UIColor.blackColor()
+
             // PRINT sendersName
             sendersName.hidden = false
             sendersMessage.hidden = false
+            enterName.hidden = true
+            enterMessage.hidden = true
             
             // CHANGE "SEND" (postButton) to "SENT"
             sender.setTitle("SENT", forState: .Normal)

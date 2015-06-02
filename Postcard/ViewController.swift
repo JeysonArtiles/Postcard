@@ -41,7 +41,7 @@ class ViewController: UIViewController {
             sendersName.hidden = false
             sendersMessage.hidden = false
             
-            // CHANGE "POST" (postButton) to "SEND"
+            // CHANGE "SEND" (postButton) to "SENT"
             sender.setTitle("SENT", forState: .Normal)
             sender.setTitleColor(UIColor.blackColor(), forState: .Normal)
             sender.backgroundColor = UIColor.whiteColor()
@@ -50,7 +50,7 @@ class ViewController: UIViewController {
             sendersName.text = enterName.text
             sendersMessage.text = enterMessage.text
         }
-            
+        
         // REMOVE keyboard on button press (postButton)
         enterName.resignFirstResponder()
         enterMessage.resignFirstResponder()

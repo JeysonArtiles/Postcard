@@ -30,6 +30,8 @@ class ViewController: UIViewController {
 
     @IBAction func postButton(sender: UIButton) {
         
+        //NO MORE
+        
         // CHECK 
         if enterName.text == "" || enterMessage.text == "" {
             sendersName.textColor = UIColor.whiteColor()
